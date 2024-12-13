@@ -13,7 +13,7 @@ import random
 
 load_dotenv()
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='../frontend/templates')
 CORS(app)
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
