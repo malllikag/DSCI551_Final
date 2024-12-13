@@ -6,7 +6,31 @@ ChatDB allows you to interact with a Neo4j database to learn and practice queryi
 ## System Requirements
 - A modern web browser (Chrome, Firefox)
 - Neo4j database running and populated with the Crime dataset
-- Python environment with required packages (`REQUIREMENTS.txt`)
+- Python environment with required packages (`REQUIREMENTS.txt`)'
+
+## Neo4J Setup 
+1. Prerequisites:
+Install Neo4j Desktop from the official website.
+Ensure Java Runtime Environment (JRE) is installed (Neo4j requires it).
+
+2. Steps to Set Up Neo4j:
+- Install Neo4j Desktop:
+Download and install the Neo4j Desktop application: https://neo4j.com/
+- Launch Neo4j and create a new local database project.
+- Create the Database: Name the database chicagocrimedb (case-sensitive).
+- Set a password.
+- Start the database.
+- Upload chicago_crime_data_cleaned.csv:
+- Place the chicago_crime_data_cleaned.csv file in an accessible location.
+- Open the Neo4j Browser interface.
+- Run the following command to load the dataset:
+![image](https://github.com/user-attachments/assets/5974257a-b6c5-4da1-babe-0c1480fd8cb6)
+
+** Note: Ensure chicago_crime_data_cleaned.csv is uploaded to Neo4j's import folder (<neo4j-installation-path>/import).
+3. Verify Data Import: Run this query in the Neo4j Browser to check:
+![image](https://github.com/user-attachments/assets/cf93042f-1914-4a8e-ad07-f650ab67b564)
+
+4. Test Neo4j Connection: Launch the Flask backend and confirm Neo4j connects successfully.
 
 ## Installation and Setup
 1. `pip install -r REQUIREMENTS.txt`
