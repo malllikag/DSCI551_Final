@@ -17,7 +17,13 @@ ChatDB is an interactive application that helps users learn to query a Neo4j dat
 3. Install dependencies: `pip install -r REQUIREMENTS.txt`
 4. Start the Flask app: `python app.py`
 5. Open `http://localhost:5001` in your browser.
-
+   
+### Neo4j Setup
+1. Install Neo4j Desktop from the official [Neo4j website](https://neo4j.com/download/).
+2. Open Neo4j and create a new database named `chicagocrimedb`.
+3. Use the `chicago_crime_data_cleaned.csv` file located in the `data` folder of this repository.
+4. Import the data. 
+   
 ## Further Documentation
 - [USER_GUIDE.md](USER_GUIDE.md): Detailed usage instructions.
 - [DEVELOPER_GUIDE.md](DEVELOPER_GUIDE.md): Code structure, architecture, and extension details.
