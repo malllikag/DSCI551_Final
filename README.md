@@ -25,8 +25,8 @@ ChatDB is an interactive application that helps users learn to query a Neo4j dat
 4. Import the data. 
    
 ## Further Documentation
-- [USER_GUIDE.md](USER_GUIDE.md): Detailed usage instructions.
-- [DEVELOPER_GUIDE.md](DEVELOPER_GUIDE.md): Code structure, architecture, and extension details.
+- [USER_GUIDE.md](documentation/USER_GUIDE.md): Detailed usage instructions.
+- [DEVELOPER_GUIDE.md](documentation/DEVELOPER_GUIDE.md): Code structure, architecture, and extension details.
 
 ## Data Setup
 The Chicago Crime dataset was cleaned using `ChicagoCrime.ipynb`. After cleaning, `chicago_crime_data_cleaned.csv` was imported into Neo4j. The notebook contains all steps and can be reviewed for data preparation details.
